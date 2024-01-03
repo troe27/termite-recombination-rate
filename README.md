@@ -6,7 +6,7 @@ this repository contains the scripts for all anaysis and figures in the Manuscri
 
 The raw data needed to recreate this are available under bioprojects [PRJNA1021607](insert_link_here) (assemblies) and [NNNNNNNNNNN](insert_link_here) (population sequencing)
 
-for questions about the manuscript or scripts presented here, dont hesitate to email mailto:firstname.lastname@imbim.uu.se
+for questions about the manuscript or scripts presented here, dont hesitate to email [firstname.lastname@imbim.uu.se](mailto:firstname.lastname@imbim.uu.se)
 
 ## Abstract
 
