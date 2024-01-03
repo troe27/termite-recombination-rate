@@ -1,0 +1,29 @@
+#!/bin/bash -l
+#SBATCH -A naiss2023-22-450
+# -p specifies the type of resource i want ( whole node, or core? ) and n the amount
+#SBATCH -p core -n 8
+#SBATCH -t 5:00:00
+#SBATCH -J ortho_Mbel_Mnat
+#SBATCH --mail-type=all
+#SBATCH --get-user-env
+#SBATCH --mail-user=tilman.ronneburg@imbim.uu.se
+#SBATCH -o ./ortho_Mbel_Mnat_%j.out
+#SBATCH -e ./ortho_Mbel_Mnat_%j.error
+
+
+module load bioinfo-tools
+module load  OrthoFinder/2.5.2
+
+
+orthofinder.py -t 8 -f ./input
+
+
+
+
+
+
+
+
+
+
+

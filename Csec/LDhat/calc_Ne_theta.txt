@@ -1,0 +1,9 @@
+Tot length of scaffolds included: 998235979
+
+[turid@rackham1 Csec]$ cat Csec_contig_lengths_geq1000.txt | awk ' BEGIN { sum_bp=0 } { sum_bp+=$2 } END { print sum_bp } '
+998235979
+
+[turid@rackham1 Csec]$ wc -l Csec_contig_lengths_geq1000.txt 
+10236 Csec_contig_lengths_geq1000.txt
+
+
