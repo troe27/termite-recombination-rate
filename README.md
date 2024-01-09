@@ -1,10 +1,9 @@
 # termite-recombination-rate
 
 
-this repository contains the scripts for all anaysis and figures in the Manuscript _"Analysis of genome variation in termites demonstrates that high recombination rates are not a universal feature of social insects
-"_ by [Everitt et al. (2024)](insert_link_here/DOI).
+This repository contains the scripts for all anaysis and figures in the Manuscript currenty submitted with the preliminary title _"Low recombination rates punctuated by recombination hotspots in termite genomes"_ by Everitt et al. (2024)
 
-The raw data needed to recreate this are available under bioprojects [PRJNA1021607](insert_link_here) (assemblies) and [NNNNNNNNNNN](insert_link_here) (population sequencing)
+The raw data needed to recreate this are available under bioprojects **PRJNA1021607** and will be available upon publication.
 
-for questions about the manuscript or scripts presented here, dont hesitate to email [firstname.lastname@imbim.uu.se](mailto:firstname.lastname@imbim.uu.se)
+For questions about the manuscript or scripts presented here, dont hesitate to email [Matthew Webster](mailto:Matthew.Webster@imbim.uu.se)
 
