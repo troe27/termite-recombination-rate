@@ -1,0 +1,6 @@
+n_threads=20
+queryprot=./pr_set.fa 
+db=Mbeldb/Mbeldb
+outfile=./blast_hits_prset
+
+blastn -query $queryprot -db $db -num_threads $n_threads -out $outfile -evalue 1e-5

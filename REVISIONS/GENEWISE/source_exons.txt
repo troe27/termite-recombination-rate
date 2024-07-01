@@ -1,0 +1,10 @@
+source_Exons 1 112
+source_Exons 1734 1864
+source_Exons 3829 3926
+source_Exons 6433 6509
+source_Exons 7351 7461
+source_Exons 9004 9080
+source_Exons 10200 10391
+source_Exons 15407 15668
+source_Exons 24504 24777
+source_Exons 25561 25933

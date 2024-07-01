@@ -1,0 +1,91 @@
+genewise $Name: wise2-4-1 $ (unreleased release)
+This program is freely distributed under a GPL. See source directory
+Copyright (c) GRL limited: portions of the code are from separate copyright
+
+Query protein:       PRDM9_Cryptotermes_secundus_KRAB
+Comp Matrix:         BLOSUM62.bla
+Gap open:            12
+Gap extension:       2
+Start/End            local
+Target Sequence      scaffold42_9663171_f40Z9663171:3910516-3945151
+Strand:              forward
+Start/End (protein)  local
+Gene Parameter file: gene.stat
+Splice site model:   GT/AG only
+GT/AG bits penalty   -9.96
+Codon Table:         codon.table
+Subs error:          1e-06
+Indel error:         1e-06
+Null model           syn
+Algorithm            623
+
+genewise output
+Score 63.31 bits over entire alignment
+Scores as bits over a synchronous coding model
+
+Warning: The bits scores is not probablistically correct for single seqs
+See WWW help for more info
+
+PRDM9_Cryptoter    5 KYTELSSFLTINEWKNMSEYDRKRNYNILENYKVLHSL            
+                     KY+ELS + T+ EW NMSEYDR R YNILENYKVL SL            
+                     KYSELSRYFTLKEWNNMSEYDRIRYYNILENYKVLQSL            
+scaffold42_9663    6 atagctattatagtaaatgtgaacttaacgatagtctt            
+                     aagatcgatctaagaatcaaagtgaaattaaaattact            
+                     gctaatgtcaagagtcgaatcaactcctaatcgtggaa            
+
+
+PRDM9_Cryptoter   43                               LSTKKPDFMCVTKRKSGEK 
+                                                   L+TK+PDFMCVTKR+S E+ 
+                               G:D[gat]            LTTKRPDFMCVTKRQSKEE 
+scaffold42_9663  120 GGTAAGTC  Intron 1       CAGATtaaaacgtatgaaactagg 
+                      <1-----[121    :   1741]-1>  tccagcattgtcagacaaa 
+                                                   atcagtccgtgagaacagg 
+
+
+PRDM9_Cryptoter   63 KWST                                              
+                     KW +                                              
+                     KWPS                                              
+scaffold42_9663 1801 atct                                              
+                     agcc                                              
+                     agta                                              
+
+
+//
+Gene 1
+Gene 6 1812 
+  Exon 6 120 phase 0
+  Exon 1742 1812 phase 1
+//
+FT          CDS    join(6..120,1742..1812)
+FT                   /note="Match to PRDM9_Cryptotermes_secundus_KRAB"
+//
+FT   misc_feature    join(6..120,1742..1812)
+FT                   /note="Match to PRDM9_Cryptotermes_secundus_KRAB Score 63.31"
+//
+>scaffold42_9663171_f40Z9663171:3910516-3945151.[6:1812].sp.tr
+KYSELSRYFTLKEWNNMSEYDRIRYYNILENYKVLQSLDLTTKRPDFMCVTKRQSKEEKW
+PS
+//
+>scaffold42_9663171_f40Z9663171:3910516-3945151.[6:1812].sp
+AAGTACAGTGAACTATCTAGGTATTTCACATTAAAGGAATGGAATAACATGTCAGAATAT
+GACAGAATACGCTATTACAACATTCTAGAAAATTACAAGGTTTTGCAGTCATTAGATTTA
+ACTACCAAAAGGCCTGACTTCATGTGTGTGACAAAGAGACAATCCAAAGAGGAGAAATGG
+CCTTCA
+//
+Sequence scaffold42_9663171_f40Z9663171:3910516-3945151
+subsequence scaffold42_9663171_f40Z9663171:3910516-3945151.1 6 1812
+
+Sequence scaffold42_9663171_f40Z9663171:3910516-3945151.1
+CDS
+Start_not_found
+End_not_found
+CDS_predicted_by genewise 63.31
+source_Exons 1 115
+source_Exons 1737 1807
+
+//
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	match	6	1812	63.31	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-1
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	6	120	0.00	+	0	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-1
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	intron	121	1741	0.00	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-1
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	1742	1812	0.00	+	2	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-1
+//

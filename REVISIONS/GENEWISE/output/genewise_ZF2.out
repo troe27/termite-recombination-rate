@@ -1,0 +1,68 @@
+genewise $Name: wise2-4-1 $ (unreleased release)
+This program is freely distributed under a GPL. See source directory
+Copyright (c) GRL limited: portions of the code are from separate copyright
+
+Query protein:       PRDM9_ZF2_Cryptotermes_secundus_ZF2
+Comp Matrix:         BLOSUM62.bla
+Gap open:            12
+Gap extension:       2
+Start/End            local
+Target Sequence      scaffold42_9663171_f40Z9663171:3910516-3945151
+Strand:              forward
+Start/End (protein)  local
+Gene Parameter file: gene.stat
+Splice site model:   GT/AG only
+GT/AG bits penalty   -9.96
+Codon Table:         codon.table
+Subs error:          1e-06
+Indel error:         1e-06
+Null model           syn
+Algorithm            623
+
+genewise output
+Score 29.49 bits over entire alignment
+Scores as bits over a synchronous coding model
+
+Warning: The bits scores is not probablistically correct for single seqs
+See WWW help for more info
+
+PRDM9_ZF2_Crypt    1 CKECGRMFSQIGALRRHMRIHTGEKPYE                      
+                     C ECG  F+Q  AL  H RIHTGEKP+                       
+                     CTECGYKFTQRSALVNHSRIHTGEKPFV                      
+scaffold42_966325765 tagtgtatacatgcgactaacaggactg                      
+                     gcaggaatcagccttaacgtacgaactt                      
+                     tagtttgttaattgatcaatcaaaattg                      
+
+
+//
+Gene 1
+Gene 25765 25848 
+  Exon 25765 25848 phase 0
+//
+FT          CDS    25765..25848
+FT                   /note="Match to PRDM9_ZF2_Cryptotermes_secundus_ZF2"
+//
+FT   misc_feature    25765..25848
+FT                   /note="Match to PRDM9_ZF2_Cryptotermes_secundus_ZF2 Score 29.49"
+//
+>scaffold42_9663171_f40Z9663171:3910516-3945151.[25765:25848].sp.tr
+CTECGYKFTQRSALVNHSRIHTGEKPFV
+//
+>scaffold42_9663171_f40Z9663171:3910516-3945151.[25765:25848].sp
+TGTACAGAGTGTGGTTATAAGTTTACTCAAAGATCTGCTCTGGTAAATCACTCAAGAATT
+CACACAGGAGAAAAACCTTTTGTG
+//
+Sequence scaffold42_9663171_f40Z9663171:3910516-3945151
+subsequence scaffold42_9663171_f40Z9663171:3910516-3945151.1 25765 25848
+
+Sequence scaffold42_9663171_f40Z9663171:3910516-3945151.1
+CDS
+Start_not_found
+End_not_found
+CDS_predicted_by genewise 29.49
+source_Exons 1 84
+
+//
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	match	25765	25848	29.49	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-1
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	25765	25848	0.00	+	0	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-1
+//

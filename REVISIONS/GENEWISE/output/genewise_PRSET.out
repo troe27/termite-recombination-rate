@@ -1,0 +1,117 @@
+genewise $Name: wise2-4-1 $ (unreleased release)
+This program is freely distributed under a GPL. See source directory
+Copyright (c) GRL limited: portions of the code are from separate copyright
+
+Query protein:       PRDM9_Cryptotermes_secundus_PRSET
+Comp Matrix:         BLOSUM62.bla
+Gap open:            12
+Gap extension:       2
+Start/End            local
+Target Sequence      scaffold42_9663171_f40Z9663171:3910516-3945151
+Strand:              forward
+Start/End (protein)  local
+Gene Parameter file: gene.stat
+Splice site model:   GT/AG only
+GT/AG bits penalty   -9.96
+Codon Table:         codon.table
+Subs error:          1e-06
+Indel error:         1e-06
+Null model           syn
+Algorithm            623
+
+genewise output
+Score 288.04 bits over entire alignment
+Scores as bits over a synchronous coding model
+
+Warning: The bits scores is not probablistically correct for single seqs
+See WWW help for more info
+
+PRDM9_Cryptoter    1 CDDCGQEWEGDCPVHGALTVVEDTK                         
+                     CDDC  EWEGDCPVHG LTVVEDTK                         
+                     CDDCNHEWEGDCPVHGPLTVVEDTK                         
+scaffold42_9663 9014 tggtacgtgggtcgcgccaggggaaGTATGCA  Intron 1        
+                     gaagaaagagagctagctcttaaca<0-----[9089   :  10207] 
+                     ttctctgggactttcgttattatag                         
+
+
+PRDM9_Cryptoter   26    VPADPEDSTRADRTVPSQLYIAQSGISGAGRGVWSRVPLSKGLRFG 
+                        VP DP D TRADRTVPSQL IA+SGISGAG+GVW+ VPL+KGLRFG 
+                        VPPDPADPTRADRTVPSQLCIAKSGISGAGQGVWTMVPLAKGLRFG 
+scaffold42_966310205 CAGgccgcggcacggcagctcctagatgaagggcggtaagccgagtatg 
+                     -0>tccaccaccgcagctccatgtcacgtggcgagtgcttctcagtgtg 
+                        caattatccatccagctagcacgtacttacacggggatacgggatt 
+
+
+PRDM9_Cryptoter   72 PYEGAKVKSSNSNGYCWQ                           IRRN 
+                     PYEGAKV+ SNSNGYCWQ                           IR+N 
+                     PYEGAKVEFSNSNGYCWQ                           IRQN 
+scaffold42_966310346 ctgggaggttaaagtttcGTGGGAA  Intron 2       CAGacca 
+                     caagcatatcagagagga<0-----[10400  :  15414]-0>tgaa 
+                     ttataatacacctcctgg                           ctgc 
+
+
+PRDM9_Cryptoter   94 YRALYCVDAKNCGIANWMRYVNCARHEEEQNLMAFQYKGEMYYRTVRPI 
+                      R LYCVDA++CG+ANWMRYVNCARHEEEQNLMAFQYKGEMYYRT + I 
+                     SRPLYCVDAEDCGMANWMRYVNCARHEEEQNLMAFQYKGEMYYRTFKHI 
+scaffold42_966315427 tcctttgggggtgagatactgatgacgggcatagtctaggattcataca 
+                     cgctagtacaaggtcagtgatagcgaaaaaattctaaagataagctaat 
+                     tatattttcgctcgctggctcttaacgaagtagatacacagctaacaca 
+
+
+PRDM9_Cryptoter  143 PAHVELLVWYGDEYGRELGI                              
+                     PAH ELLVWYGD+YGRELGI                              
+                     PAHTELLVWYGDDYGRELGI                              
+scaffold42_966315574 cgcagccgttgggtgcgcga                              
+                     ccacatttgagaaaggatgt                              
+                     tcctagttgtgttctaagct                              
+
+
+//
+Gene 1
+Gene 9014 15633 
+  Exon 9014 9088 phase 0
+  Exon 10208 10399 phase 0
+  Exon 15415 15633 phase 0
+//
+FT          CDS    join(9014..9088,10208..10399,15415..15633)
+FT                   /note="Match to PRDM9_Cryptotermes_secundus_PRSET"
+//
+FT   misc_feature    join(9014..9088,10208..10399,15415..15633)
+FT                   /note="Match to PRDM9_Cryptotermes_secundus_PRSET Score 288.04"
+//
+>scaffold42_9663171_f40Z9663171:3910516-3945151.[9014:15633].sp.tr
+CDDCNHEWEGDCPVHGPLTVVEDTKVPPDPADPTRADRTVPSQLCIAKSGISGAGQGVWT
+MVPLAKGLRFGPYEGAKVEFSNSNGYCWQIRQNSRPLYCVDAEDCGMANWMRYVNCARHE
+EEQNLMAFQYKGEMYYRTFKHIPAHTELLVWYGDDYGRELGI
+//
+>scaffold42_9663171_f40Z9663171:3910516-3945151.[9014:15633].sp
+TGTGATGACTGTAACCATGAGTGGGAGGGAGACTGTCCTGTTCACGGGCCTCTTACAGTT
+GTTGAAGATACAAAGGTCCCACCAGATCCTGCAGATCCCACCCGAGCTGACCGCACAGTG
+CCCTCTCAACTGTGCATAGCCAAGTCTGGAATCAGTGGTGCAGGCCAAGGCGTGTGGACG
+ATGGTACCTCTAGCCAAGGGGTTGAGATTTGGTCCTTATGAAGGTGCAAAAGTTGAATTC
+TCAAACAGCAATGGCTACTGTTGGCAGATCCGTCAGAACTCTCGACCTTTATATTGTGTT
+GATGCCGAGGACTGTGGCATGGCCAATTGGATGCGCTATGTCAATTGTGCAAGACACGAG
+GAAGAACAGAATTTAATGGCATTTCAATACAAAGGCGAAATGTACTATCGAACATTCAAA
+CACATACCTGCCCACACTGAACTGCTTGTTTGGTATGGGGATGATTACGGTCGAGAACTG
+GGCATT
+//
+Sequence scaffold42_9663171_f40Z9663171:3910516-3945151
+subsequence scaffold42_9663171_f40Z9663171:3910516-3945151.1 9014 15633
+
+Sequence scaffold42_9663171_f40Z9663171:3910516-3945151.1
+CDS
+Start_not_found
+End_not_found
+CDS_predicted_by genewise 288.04
+source_Exons 1 75
+source_Exons 1195 1386
+source_Exons 6402 6620
+
+//
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	match	9014	15633	288.04	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-1
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	9014	9088	0.00	+	0	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-1
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	intron	9089	10207	0.00	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-1
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	10208	10399	0.00	+	0	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-1
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	intron	10400	15414	0.00	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-1
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	15415	15633	0.00	+	0	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-1
+//

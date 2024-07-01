@@ -1,0 +1,4 @@
+fasta='./New_Mbel_no_comma.fa'
+
+makeblastdb -in $fasta  -parse_seqids -blastdb_version 5  -title "Mbel" -dbtype nucl -out Mbeldb
+

@@ -1,0 +1,311 @@
+genewise $Name: wise2-4-1 $ (unreleased release)
+This program is freely distributed under a GPL. See source directory
+Copyright (c) GRL limited: portions of the code are from separate copyright
+
+Query protein:       XP_021927980.1
+Comp Matrix:         BLOSUM62.bla
+Gap open:            12
+Gap extension:       2
+Start/End            local
+Target Sequence      scaffold42_9663171_f40Z9663171:3910516-3945151
+Strand:              forward
+Start/End (protein)  local
+Gene Parameter file: gene.stat
+Splice site model:   GT/AG only
+GT/AG bits penalty   -9.96
+Codon Table:         codon.table
+Subs error:          1e-06
+Indel error:         1e-06
+Null model           syn
+Algorithm            623
+
+genewise output
+Score 551.12 bits over entire alignment
+Scores as bits over a synchronous coding model
+
+Warning: The bits scores is not probablistically correct for single seqs
+See WWW help for more info
+
+XP_021927980.1     2 DENNYSELSSLFSLNEWNDMSEYDKKRNHNLLENYKVLQSF         
+                      E  YSELS  F+L EWN+MSEYD+ R +N+LENYKVLQS+         
+                     -EK!YSELSRYFTLKEWNNMSEYDRIRYYNILENYKVLQSL         
+scaffold42_9663    2  ga1tagctattatagtaaatgtgaacttaacgatagtctt         
+                      aa agatcgatctaagaatcaaagtgaaattaaaattact         
+                      aa ctaatgtcaagagtcgaatcaactcctaatcgtggaa         
+
+
+XP_021927980.1    43                               LATKKPDFLCMTKRKSEEQ 
+                                                   L TK+PDF+C+TKR+S+E+ 
+                               G:D[gat]            LTTKRPDFMCVTKRQSKEE 
+scaffold42_9663  120 GGTAAGTC  Intron 1       CAGATtaaaacgtatgaaactagg 
+                      <1-----[121    :   1741]-1>  tccagcattgtcagacaaa 
+                                                   atcagtccgtgagaacagg 
+
+
+XP_021927980.1    63 KWSTKNKCIKFKPQIKRKDGNVSI                          
+                     KW +K K +K   ++K K                                
+                     KWPSKRKHVKCAAKMKSKHETAPC                          
+scaffold42_9663 1801 atctacacgatggaaaaacgagctGTAAGTT  Intron 2         
+                     agccagaatagccatagaaacccg<0-----[1873   :   3836]  
+                     agtagtatggtataggcatgtgct                          
+
+
+XP_021927980.1    87    KKQNTLQHIPSPAELAQDTDEDFLGFPEATSI               
+                         K+N     PSP ELAQD  EDFLGFP+A  +               
+                        NKENAWLFNPSPHELAQDIQEDFLGFPDADYV               
+scaffold42_9663 3834 CAGaagagtctactccgcgcgacggttgtcgggtg               
+                     -0>aaaacgttacccaatcaataaattgtcacaat               
+                        caattgaccaaatatagcagatcaatacattt               
+
+
+XP_021927980.1   119                               QIVGLSALKDAIRKLESEL 
+                                                   +   +SAL +AI+KLESE+ 
+                                G:G[gga]           ENAVISALNEAIKKLESEI 
+scaffold42_9663 3933 GGGTGAGTA  Intron 3       CAGAgaggatgtaggaaacgaga 
+                       <2-----[3935   :   6440]-2> aacttcctaactaatagat 
+                                                   ataattcatgtcgatatat 
+
+
+XP_021927980.1   139 ESLVEA                              NGSEKESDVPGRR 
+                     ++++EA                              N S +E++ P RR 
+                     QNMIEA          E:E[gag]            NNSAEEAESPRRR 
+scaffold42_9663 6499 caaaggGGTGAGCC  Intron 4       CAGAGaatgggggtcaac 
+                     aattac <1-----[6518   :   7358]-1>  aaccaacaccggg 
+                     acgaaa                              tcaaggtactggt 
+
+
+XP_021927980.1   159 YPKRSLARKNYMEGNVLDDDEYI                           
+                     YPKRS+ARK+Y EG+V DDD+Y+                           
+                     YPKRSVARKDYTEGSVPDDDDYL          F:F[ttt]         
+scaffold42_9663 7400 tcactggcagtaggagcggggttTGTAAATA  Intron 5         
+                     acagctcgaaacaggtcaaaaat <1-----[7470   :   9011]  
+                     ctgaaatcatcagatgattttta                           
+
+
+XP_021927980.1   182      CDDCHHEWEGDCPVHGALTVVEDTK                    
+                          CDDC+HEWEGDCPVHG LTVVEDTK                    
+                          CDDCNHEWEGDCPVHGPLTVVEDTK                    
+scaffold42_9663 9009 CAGTTtggtacgtgggtcgcgccaggggaa                    
+                     -1>  gaagaaagagagctagctcttaaca                    
+                          ttctctgggactttcgttattatag                    
+
+
+XP_021927980.1   208                            VPAHPGDPTRADRTVPFQLCIA 
+                                                VP  P DPTRADRTVP QLCIA 
+                                                VPPDPADPTRADRTVPSQLCIA 
+scaffold42_9663 9089 GTATGCA  Intron 6       CAGgccgcggcacggcagctcctag 
+                     <0-----[9089   :  10207]-0>tccaccaccgcagctccatgtc 
+                                                caattatccatccagctagcac 
+
+
+XP_021927980.1   230 QSGISDAGCGVWTRVPLRKGLRFGPYEGAKLETSNSNGYCWQ        
+                     +SGIS AG GVWT VPL KGLRFGPYEGAK+E SNSNGYCWQ        
+                     KSGISGAGQGVWTMVPLAKGLRFGPYEGAKVEFSNSNGYCWQ        
+scaffold42_966310274 atgaagggcggtaagccgagtatgctgggaggttaaagtttc        
+                     acgtggcgagtgcttctcagtgtgcaagcatatcagagagga        
+                     gtacttacacggggatacgggattttataatacacctcctgg        
+
+
+XP_021927980.1   272                            IHHNSRPLYCVDAKDCGVANWM 
+                                                I  NSRPLYCVDA+DCG+ANWM 
+                                                IRQNSRPLYCVDAEDCGMANWM 
+scaffold42_966310400 GTGGGAA  Intron 7       CAGaccatcctttgggggtgagata 
+                     <0-----[10400  :  15414]-0>tgaacgctagtacaaggtcagt 
+                                                ctgctatattttcgctcgctgg 
+
+
+XP_021927980.1   294 RYVNCARHAEELNLMAFQYKGEIYYRTFQHIPAHVELLVWYGDEYGRLL 
+                     RYVNCARH EE NLMAFQYKGE+YYRTF+HIPAH ELLVWYGD+YGR L 
+                     RYVNCARHEEEQNLMAFQYKGEMYYRTFKHIPAHTELLVWYGDDYGREL 
+scaffold42_966315481 ctgatgacgggcatagtctaggattcatacacgcagccgttgggtgcgc 
+                     gatagcgaaaaaattctaaagataagctaatccacatttgagaaaggat 
+                     ctcttaacgaagtagatacacagctaacacatcctagttgtgttctaag 
+
+
+XP_021927980.1   343 GIDVKNFHKPQQKQCH                              VFR 
+                     GID+ +FHKPQQKQ H                              VF  
+                     GIDIVSFHKPQQKQSH          S:D[gat]            VFG 
+scaffold42_966315628 gagagatcacccactcGGTAAGTA  Intron 8       CAGATgtg 
+                     gtattgtaacaaaaca <1-----[15677  :  24511]-1>  ttg 
+                     ctttgttcgtagaatt                              gcc 
+
+
+XP_021927980.1   363 CVGCGTTYSSPLYLENHKIYCRGLKGIRLTQSGREFGVKSIQSNSIHTK 
+                     C GCG TY+SPLYL+ H  YCR L+  RL+ S     VK   S+S  +  
+                     CDGCGITYTSPLYLDKHAKYCRALQSARLSNSSAVCSVKCSSSSSNDST 
+scaffold42_966324523 tggtgaataaccttgacgattcgccagattaaaggtagatataaaagaa 
+                     gagggtcacgctataaacaaggctagcgtcaggctggtaggcgggaagc 
+                     tcgtctacatggtgtatagtttaggtaagaccttgcttgctgccttctc 
+
+
+XP_021927980.1   412 V-------HCGHDSNR-PTSINYVKPVNLSIKGDMCDK            
+                     +       HC    NR   + N+V+ +  S   D                
+                     IICANRVGHCNGQENRFSGNSNHVECLCTSDGSDTGKS            
+scaffold42_966324670 aatgaaggctagcgaattgaaacggtttaaggagagaa            
+                     ttgcagtgagagaaagtcgagaatagtgcgaggacgag            
+                     tctccagtcctaggcgctccctttatgtctttttacac            
+
+
+XP_021927980.1   442                               SHMDDKPYVCEECGHKFAR 
+                                                    H  +KP+VC ECG+KF + 
+                                D:R[aga]           IHTGEKPFVCTECGYKFTQ 
+scaffold42_966324784 AGGTGCTTC  Intron 9       AAGAacaggactgtagtgtatac 
+                       <2-----[24786  :  25568]-2> tacgaacttgcaggaatca 
+                                                   tcaaaattgtagtttgtta 
+
+
+XP_021927980.1   462 RGTLKTHMRSHTGEKPFECEECGHKFTQRGHLKTHMRSHTGEKPFECEE 
+                     R  L  H R HTGEKPF C ECG+KFTQR HL  H R HTGEKPF C E 
+                     RSALVNHSRIHTGEKPFVCAECGYKFTQRSHLVRHSRIHTGEKPFVCTE 
+scaffold42_966325627 atgcgactaacaggactgtggtgtatacatccgactaacaggactgtag 
+                     gccttaacgtacgaacttgcaggaatcagcattgacgtacgaacttgca 
+                     attgatcaatcaaaattgtagtttgttaattgagcaatcaaaattgtag 
+
+
+XP_021927980.1   511 CGLKFTEGGTLKRHMRSHTGEKPFECEECGNKFARRGYLNIHMRSHTGE 
+                     CG KFT+   L  H R HTGEKPF C ECG KF  R  L  H R HTGE 
+                     CGYKFTQRSALVNHSRIHTGEKPFVCAECGYKFTDRSALVNHSRIHTGE 
+scaffold42_966325774 tgtatacatgcgactaacaggactgtggtgtatagatgcgactaacagg 
+                     ggaatcagccttaacgtacgaacttgcaggaatcagccttaacgtacga 
+                     tttgttaattgatcaatcaaaattgtagtttgttcattgatcaatcaaa 
+
+
+XP_021927980.1   560 KPFECEE                                           
+                     KPF C E                                           
+                     KPFVCTE                                           
+scaffold42_966325921 actgtag                                           
+                     acttgca                                           
+                     attgtag                                           
+
+
+//
+Gene 1
+Gene 2 7 
+  Exon 2 7 phase 0
+Gene 2
+Gene 9 25941 
+  Exon 9 120 phase 0
+  Exon 1742 1872 phase 1
+  Exon 3837 3934 phase 0
+  Exon 6441 6517 phase 2
+  Exon 7359 7469 phase 1
+  Exon 9012 9088 phase 1
+  Exon 10208 10399 phase 0
+  Exon 15415 15676 phase 0
+  Exon 24512 24785 phase 1
+  Exon 25569 25941 phase 2
+//
+FT          CDS    2..7
+FT                   /note="Match to XP_021927980.1"
+FT          CDS    join(9..120,1742..1872,3837..3934,6441..6517,
+FT                   7359..7469,9012..9088,10208..10399,
+FT                   15415..15676,24512..24785,25569..25941)
+FT                   /note="Match to XP_021927980.1"
+//
+FT   misc_feature    2..7
+FT                   /note="Match to XP_021927980.1 Score -18.71"
+FT   misc_feature    join(9..120,1742..1872,3837..3934,6441..6517,
+FT                   7359..7469,9012..9088,10208..10399,
+FT                   15415..15676,24512..24785,25569..25941)
+FT                   /note="Match to XP_021927980.1 Score 595.26"
+//
+>scaffold42_9663171_f40Z9663171:3910516-3945151.[2:7].sp.tr
+EK
+>scaffold42_9663171_f40Z9663171:3910516-3945151.[9:25941].sp.tr
+YSELSRYFTLKEWNNMSEYDRIRYYNILENYKVLQSLDLTTKRPDFMCVTKRQSKEEKWP
+SKRKHVKCAAKMKSKHETAPCNKENAWLFNPSPHELAQDIQEDFLGFPDADYVGENAVIS
+ALNEAIKKLESEIQNMIEAENNSAEEAESPRRRYPKRSVARKDYTEGSVPDDDDYLFCDD
+CNHEWEGDCPVHGPLTVVEDTKVPPDPADPTRADRTVPSQLCIAKSGISGAGQGVWTMVP
+LAKGLRFGPYEGAKVEFSNSNGYCWQIRQNSRPLYCVDAEDCGMANWMRYVNCARHEEEQ
+NLMAFQYKGEMYYRTFKHIPAHTELLVWYGDDYGRELGIDIVSFHKPQQKQSHDVFGCDG
+CGITYTSPLYLDKHAKYCRALQSARLSNSSAVCSVKCSSSSSNDSTIICANRVGHCNGQE
+NRFSGNSNHVECLCTSDGSDTGKSRIHTGEKPFVCTECGYKFTQRSALVNHSRIHTGEKP
+FVCAECGYKFTQRSHLVRHSRIHTGEKPFVCTECGYKFTQRSALVNHSRIHTGEKPFVCA
+ECGYKFTDRSALVNHSRIHTGEKPFVCTE
+//
+>scaffold42_9663171_f40Z9663171:3910516-3945151.[2:7].sp
+GAAAAA
+>scaffold42_9663171_f40Z9663171:3910516-3945151.[9:25941].sp
+TACAGTGAACTATCTAGGTATTTCACATTAAAGGAATGGAATAACATGTCAGAATATGAC
+AGAATACGCTATTACAACATTCTAGAAAATTACAAGGTTTTGCAGTCATTAGATTTAACT
+ACCAAAAGGCCTGACTTCATGTGTGTGACAAAGAGACAATCCAAAGAGGAGAAATGGCCT
+TCAAAGCGTAAACATGTGAAGTGTGCAGCTAAAATGAAGAGCAAACATGAGACTGCGCCC
+TGTAACAAAGAAAATGCTTGGCTATTCAACCCATCACCACATGAACTTGCACAGGACATA
+CAGGAAGATTTCTTAGGATTTCCAGACGCAGATTATGTTGGAGAAAATGCAGTAATTTCT
+GCCTTAAATGAGGCTATCAAGAAACTTGAAAGTGAAATTCAAAACATGATAGAAGCAGAG
+AATAACTCAGCAGAGGAGGCTGAATCCCCTAGGAGGCGTTACCCTAAGCGATCAGTAGCT
+CGCAAAGATTACACAGAGGGAAGTGTGCCAGATGATGATGATTATTTATTTTGTGATGAC
+TGTAACCATGAGTGGGAGGGAGACTGTCCTGTTCACGGGCCTCTTACAGTTGTTGAAGAT
+ACAAAGGTCCCACCAGATCCTGCAGATCCCACCCGAGCTGACCGCACAGTGCCCTCTCAA
+CTGTGCATAGCCAAGTCTGGAATCAGTGGTGCAGGCCAAGGCGTGTGGACGATGGTACCT
+CTAGCCAAGGGGTTGAGATTTGGTCCTTATGAAGGTGCAAAAGTTGAATTCTCAAACAGC
+AATGGCTACTGTTGGCAGATCCGTCAGAACTCTCGACCTTTATATTGTGTTGATGCCGAG
+GACTGTGGCATGGCCAATTGGATGCGCTATGTCAATTGTGCAAGACACGAGGAAGAACAG
+AATTTAATGGCATTTCAATACAAAGGCGAAATGTACTATCGAACATTCAAACACATACCT
+GCCCACACTGAACTGCTTGTTTGGTATGGGGATGATTACGGTCGAGAACTGGGCATTGAT
+ATTGTGAGTTTTCACAAGCCTCAACAGAAACAATCTCATGATGTGTTCGGCTGTGACGGG
+TGTGGCATTACATACACAAGTCCGCTGTATTTGGATAAACATGCAAAGTATTGTCGTGCA
+CTGCAGAGTGCAAGATTGTCAAACAGCAGTGCTGTGTGCAGTGTTAAGTGCAGTTCGAGC
+AGCAGTAATGACAGTACCATTATCTGTGCCAACAGAGTGGGTCACTGCAATGGACAGGAG
+AACAGGTTCTCTGGCAACAGCAATCATGTTGAATGTTTGTGTACCAGTGATGGTAGTGAT
+ACAGGCAAAAGCAGAATTCACACAGGAGAAAAACCTTTTGTGTGTACAGAGTGTGGTTAT
+AAGTTTACTCAAAGATCTGCTCTGGTAAATCACTCAAGAATTCACACAGGAGAAAAACCT
+TTTGTGTGTGCAGAGTGTGGTTATAAGTTTACTCAAAGATCTCATCTGGTAAGGCACTCA
+AGAATTCACACAGGAGAAAAACCTTTTGTGTGTACAGAGTGTGGTTATAAGTTTACTCAA
+AGATCTGCTCTGGTAAATCACTCAAGAATTCACACAGGAGAAAAACCTTTTGTGTGTGCA
+GAGTGTGGTTATAAGTTTACTGACAGATCTGCTCTGGTAAATCACTCAAGAATTCACACA
+GGAGAAAAACCTTTTGTGTGTACAGAG
+//
+Sequence scaffold42_9663171_f40Z9663171:3910516-3945151
+subsequence scaffold42_9663171_f40Z9663171:3910516-3945151.1 2 7
+
+Sequence scaffold42_9663171_f40Z9663171:3910516-3945151.1
+CDS
+Start_not_found
+End_not_found
+CDS_predicted_by genewise -18.71
+source_Exons 1 6
+
+Sequence scaffold42_9663171_f40Z9663171:3910516-3945151
+subsequence scaffold42_9663171_f40Z9663171:3910516-3945151.2 9 25941
+
+Sequence scaffold42_9663171_f40Z9663171:3910516-3945151.2
+CDS
+Start_not_found
+End_not_found
+CDS_predicted_by genewise 595.26
+source_Exons 1 112
+source_Exons 1734 1864
+source_Exons 3829 3926
+source_Exons 6433 6509
+source_Exons 7351 7461
+source_Exons 9004 9080
+source_Exons 10200 10391
+source_Exons 15407 15668
+source_Exons 24504 24777
+source_Exons 25561 25933
+
+//
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	match	2	7	-18.71	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-1
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	2	7	0.00	+	0	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-1
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	match	9	25941	595.26	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	9	120	0.00	+	0	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	intron	121	1741	0.00	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	1742	1872	0.00	+	2	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	intron	1873	3836	0.00	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	3837	3934	0.00	+	0	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	intron	3935	6440	0.00	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	6441	6517	0.00	+	1	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	intron	6518	7358	0.00	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	7359	7469	0.00	+	2	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	intron	7470	9011	0.00	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	9012	9088	0.00	+	2	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	intron	9089	10207	0.00	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	10208	10399	0.00	+	0	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	intron	10400	15414	0.00	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	15415	15676	0.00	+	0	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	intron	15677	24511	0.00	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	24512	24785	0.00	+	2	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	intron	24786	25568	0.00	+	.	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+scaffold42_9663171_f40Z9663171:3910516-3945151	GeneWise	cds	25569	25941	0.00	+	1	scaffold42_9663171_f40Z9663171:3910516-3945151-genewise-prediction-2
+//

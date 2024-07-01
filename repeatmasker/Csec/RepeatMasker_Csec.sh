@@ -1,0 +1,3 @@
+
+
+RepeatMasker -pa 4  -lib /home/tilman/termites/repeatmasker/Csec/database/cs_df_rb28.fa  /home/tilman/termites/csec_prdm9/data/Csec.fa -dir ./rm_out_dir
